@@ -34,7 +34,7 @@ def run(playwright: Playwright) -> None:
         # con dimensiones indeterminadas en las filas (-1) y 3 columnas
         matrix = np.array(a_list[3:]).reshape(-1,3)
         # Creamos el nombre del csv y guardamos la tabla
-        file_path = "csv/comidas_" + letra + ".csv"
+        file_path = "CSVs/comidas_" + letra + ".csv"
         pd.DataFrame(matrix,columns=a_list[0:3]).to_csv(file_path,
                                                         index=False)
 
