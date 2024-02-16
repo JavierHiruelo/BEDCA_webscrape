@@ -4,7 +4,7 @@ This web scraper was developed to extract food content and calorie data from the
 
 You can find the website of the database at the following [link](https://www.bedca.net/).
 
-<img src="imgs/pagina_principal_BEDCA.png" alt="drawing" width="200"/>
+<img src="imgs/pagina_principal_BEDCA.png" alt="drawing" width="600"/>
 
 ## What is the BEDCA database?
 
