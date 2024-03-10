@@ -13,3 +13,17 @@ By the definition given by BEDCA itself, it is a network of public research cent
 This database is built with the European standards developed by the European Network of Excellence EuroFIR and will be incorporated to other European Databases within the EuroFIR AISBL Association in charge of elaborating a unified platform with quality standards of the European Food Composition Databases and their interconnection through WEB services.
 
 The RedBEDCA has been set up with a grant for Complementary Actions from the Ministry of Science and Innovation (MICINN) and with the funding and coordination of the AESAN of the Ministry of Health, Social Services and Equality.
+
+## What does this repository contain?
+
+This repository contains the Python files with which I carried out the scrape of the website and two folders with the csv files with the important data from the database.
+
+**CSVs_Names** contains CSVs with the names of the ingredients included in the database and **CSVs_NutritionalValues** contains their nutritional values.
+
+## TODO 
+
+A number of things still need to be done. 
+
+- Clean the data obtained in **CSVs_NutritionalValues**.
+
+- Generate a zip file that can be downloaded more conveniently.
